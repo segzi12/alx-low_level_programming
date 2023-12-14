@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
- * main-Entry point
- * print out the printf
+ * main- Entry point
  * return- success
  */
 int main(void)
