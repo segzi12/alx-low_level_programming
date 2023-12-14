@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main- Entry point
+ * main- A  program that print out the printf function
  * return- success
  */
 int main(void)
