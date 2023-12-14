@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main-print out a function Programming is like building a multilingual puzzle
+ * main- print out a function Programming is like building a multilingual puzzle
  * return- success
  */
 int main(void)
