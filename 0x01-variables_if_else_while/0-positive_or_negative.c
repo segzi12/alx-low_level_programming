@@ -1,27 +1,31 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point of a program
- * Description: Take inpt frm users then output if post, negt or zero
+ * main: Entry point of the program
  * Return: Return 0
+ * Description: Generate a random number from time
+ * output the number if positive, negative or zero
  */
 
 int main(void)
 {
 	int n;
 
-	scanf("%d", &n);
-
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("98 is positive\n");
+		printf("%d  is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d  is negative\n", n);
 	}
 	else
 	{
-		printf("-98 is negative\n");
-	}
-	else if (n == 0)
-	{
-		printf("0 is zero\n");
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
