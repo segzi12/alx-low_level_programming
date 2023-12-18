@@ -1,14 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main: Entry point of the program
+ * main - Entry point of the program
  * Return: Return 0
  * Description: Generate a random number from time
- * output the number if positive, negative or zero
+ *output the number if positive, negative or zero
  */
-
 int main(void)
 {
 	int n;
