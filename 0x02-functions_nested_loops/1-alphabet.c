@@ -1,6 +1,6 @@
 #include  "main.h"
 /**
- * main - Entry of the program
+ * print_alphabet - Entry of the program
  * Return: Return 1
  * _putchar - print the value in the variable let
  * Description: print the alphabet
