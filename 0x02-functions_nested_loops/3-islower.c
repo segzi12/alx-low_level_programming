@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - Entry point of the program that checks integer c
- * integer c: the acting parameter
+ * @c: The  integer parameter
  * Return: Return 1, if lower case and 0 if otherwise
  * Description: This program takes parameter c as an integer and check
  *if lowercase or not
